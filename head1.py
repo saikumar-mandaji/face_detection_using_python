@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
-face1 = cv2.CascadeClassifier('E:\\mycodes\\facedetection\\haarcascade_frontalface_default.xml')
-eye1 = cv2.CascadeClassifier('E:\\mycodes\\facedetection\\haarcascade_eye.xml')
+face1 = cv2.CascadeClassifier('locate this file here-haarcascade_frontalface_default.xml')
+eye1 = cv2.CascadeClassifier('locate this file here-haarcascade_eye.xml')
 cap =cv2.VideoCapture(0)
 font =cv2.FONT_HERSHEY_DUPLEX
 
